@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var mSeekbar: SeekBar
     private lateinit var mSelectedTime : TextView
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
